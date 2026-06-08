@@ -29,10 +29,10 @@ To replicate the results, ensure your input directory matches the following envi
 ## 📦 Repository Structure & Pipeline Execution
 
 The codebase is modularized into sequential execution steps located in the `scripts/` directory:
-1. **`01_preprocessing.py`** Ingests raw HD video source files, handles temporal sampling at $1 \text{ fps}$, and executes spatial downsampling to $640 \times 480$ via bilinear interpolation.
-2. **`02_segmentation.py`** The interactive evaluation environment used to tune and lock in our primary HSV boundary vectors.
-3. **`02b_batchsegmentation.py`** Generates horizontal side-by-side split concatenations (`_verification.png`) for manual empirical quality auditing.
-4. **`02c_isolated_segments.py`** Applies the final binary mask back to the original frames via bitwise-AND matrix operations to export isolated, full-color herbal leaf targets against a absolute matte-black background.
+1. **`01_preprocessing.ipynb`** Ingests raw HD video source files, handles temporal sampling at $1 \text{ fps}$, and executes spatial downsampling to $640 \times 480$ via bilinear interpolation.
+2. **`02_segmentation.ipynb`** The interactive evaluation environment used to tune and lock in our primary HSV boundary vectors.
+3. **`02b_batchsegmentation.ipynb`** Generates horizontal side-by-side split concatenations (`_verification.png`) for manual empirical quality auditing.
+4. **`02c_isolated_segments.ipynb`** Applies the final binary mask back to the original frames via bitwise-AND matrix operations to export isolated, full-color herbal leaf targets against a absolute matte-black background.
 
 
 
