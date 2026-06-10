@@ -1,6 +1,6 @@
 # herbal-leaf-segmentation-pipeline
 An Automated dataset annotation for herbal plant leaves using Classical Image Processing and HSV Segmentations.
-This repository contains the official, production-ready implementation of an unsupervised classical computer vision framework optimized for extracting leaf regions from unconstrained outdoor video assets. This system automates the dataset annotation pipeline, achieving an 85.2% computational matrix reduction data footprint.
+This repository contains the official, production-ready implementation of an unsupervised classical computer vision framework optimized for extracting leaf regions from unconstrained outdoor video assets.
 
 ## ☁️ Deployment Architecture
 To ensure seamless accessibility and reproducible execution without heavy local hardware requirements, the pipeline is engineered to run on cloud infrastructure:
