@@ -2,6 +2,11 @@
 An Automated dataset annotation for herbal plant leaves using Classical Image Processing and HSV Segmentations.
 This repository contains the official, production-ready implementation of an unsupervised classical computer vision framework optimized for extracting leaf regions from unconstrained outdoor video assets. This system automates the dataset annotation pipeline, achieving an 85.2% computational matrix reduction data footprint.
 
+## ☁️ Deployment Architecture
+To ensure seamless accessibility and reproducible execution without heavy local hardware requirements, the pipeline is engineered to run on cloud infrastructure:
+* **Compute Engine:** Developed and optimized for **Google Colab (hosted Linux runtimes)**, leveraging cloud-allocated virtual memory to handle high-throughput frame extraction batches.
+* **Storage Ingestion Architecture:** Configured with secure **Google Drive API mounting integrations**, allowing the pipeline to stream large raw HD video assets (ranging between 30 MB to 75 MB) and safely write out isolated target assets directly to persistent cloud directories.
+
 ## 📊 Empirical Performance
 * **Total Audited Scope:** 21 Independent Video Assets (504 distinct audited frames)
 * **High-Fidelity Success Yield:** **66.7%** (14 Videos completely isolated)
