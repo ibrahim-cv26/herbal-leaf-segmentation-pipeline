@@ -25,7 +25,7 @@ To replicate the results, ensure your input directory matches the following envi
 3. Run all blocks at once from the top left corner. The pipeline will automatically build file safety directories and export pristine target assets matching original dataset filenames.
 4. Then run the included notebook script (`02_segmentation.ipynb`) inside Google Colab to interact with our model. Try out the HSV interactive widget where you are not happy with the segmented image!
    <img width="1757" height="672" alt="image" src="https://github.com/user-attachments/assets/b9103b10-35ba-4189-a036-44ac75fe569e" />
-6. Scripts (`02b_batchsegmentation.ipynb`) and (`02c_isolated_segments.ipynb') are exploratory and not mandatory.
+6. Scripts (`02b_batchsegmentation.ipynb`) and (`02c_isolated_segments.ipynb`) are exploratory and not mandatory.
 
 ## 📦 Repository Structure
 
